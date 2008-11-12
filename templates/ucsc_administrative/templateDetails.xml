@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+  <name>ucsc_administrative</name>
+  <creationDate>11 November 2008</creationDate>
+  <author>GIIP Enterprises</author>
+  <authorEmail>info@giip.org</authorEmail>
+  <authorUrl>http://enterprises.giip.org/</authorUrl>
+  <copyright></copyright>
+  <license>GNU/GPL</license>
+  <version>1.0.0</version>
+  <description>UCSC Identity Administrative template for Joomla 1.5</description>
+  <files>
+    <filename>css/custom.css</filename>
+    <filename>css/index.html</filename>
+    <filename>html/com_contact/category/default.php</filename>
+    <filename>html/com_contact/category/default_items.php</filename>
+    <filename>html/com_contact/category/index.html</filename>
+    <filename>html/com_contact/contact/default.php</filename>
+    <filename>html/com_contact/contact/default_address.php</filename>
+    <filename>html/com_contact/contact/default_form.php</filename>
+    <filename>html/com_contact/contact/index.html</filename>
+    <filename>html/com_contact/index.html</filename>
+    <filename>html/com_content/article/default.php</filename>
+    <filename>html/com_content/article/index.html</filename>
+    <filename>html/com_content/article/form.php</filename>
+    <filename>html/com_content/category/blog.php</filename>
+    <filename>html/com_content/category/blog_item.php</filename>
+    <filename>html/com_content/category/blog_links.php</filename>
+    <filename>html/com_content/category/index.html</filename>
+    <filename>html/com_content/category/default_items.php</filename>
+    <filename>html/com_content/category/default.php</filename>
+    <filename>html/com_content/frontpage/default.php</filename>
+    <filename>html/com_content/frontpage/default_item.php</filename>
+    <filename>html/com_content/frontpage/default_links.php</filename>
+    <filename>html/com_content/frontpage/index.html</filename>
+    <filename>html/com_content/section/blog.php</filename>
+    <filename>html/com_content/section/blog_item.php</filename>
+    <filename>html/com_content/section/blog_links.php</filename>
+    <filename>html/com_content/section/default.php</filename>
+    <filename>html/com_content/section/index.html</filename>
+    <filename>html/com_content/index.html</filename>
+    <filename>html/index.html</filename>
+    <filename>html/com_search/search/default.php</filename>
+    <filename>html/com_search/search/default_error.php</filename>
+    <filename>html/com_search/search/default_form.php</filename>
+    <filename>html/com_search/search/default_results.php</filename>
+    <filename>html/com_search/search/index.html</filename>
+    <filename>html/com_search/index.html</filename>
+    <filename>html/editor_content.css</filename>
+    <filename>html/mod_latestnews/default.php</filename>
+    <filename>html/mod_latestnews/index.html</filename>
+    <filename>html/mod_login/default.php</filename>
+    <filename>html/mod_login/index.html</filename>
+    <filename>html/mod_newsflash/_item.php</filename>
+    <filename>html/mod_newsflash/default.php</filename>
+    <filename>html/mod_newsflash/horiz.php</filename>
+    <filename>html/mod_newsflash/vert.php</filename>
+    <filename>html/mod_newsflash/index.html</filename>
+    <filename>html/mod_poll/default.php</filename>
+    <filename>html/mod_poll/index.html</filename>
+    <filename>html/mod_search/default.php</filename>
+    <filename>html/mod_search/index.html</filename>
+    <filename>html/modules.php</filename>
+    <filename>html/pagination.php</filename>
+    <filename>html/com_poll/poll/default.php</filename>
+    <filename>html/com_poll/poll/default_graph.php</filename>
+    <filename>html/com_poll/poll/index.html</filename>
+    <filename>html/com_poll/index.html</filename>
+    <filename>html/com_newsfeeds/categories/default.php</filename>
+    <filename>html/com_newsfeeds/categories/index.html</filename>
+    <filename>html/com_newsfeeds/category/default.php</filename>
+    <filename>html/com_newsfeeds/category/default_items.php</filename>
+    <filename>html/com_newsfeeds/category/index.html</filename>
+    <filename>html/com_newsfeeds/newsfeed/default.php</filename>
+    <filename>html/com_newsfeeds/newsfeed/index.html</filename>
+    <filename>html/com_newsfeeds/index.html</filename>
+    <filename>html/com_weblinks/categories/default.php</filename>
+    <filename>html/com_weblinks/categories/index.html</filename>
+    <filename>html/com_weblinks/category/default.php</filename>
+    <filename>html/com_weblinks/category/default_items.php</filename>
+    <filename>html/com_weblinks/category/index.html</filename>
+    <filename>html/com_weblinks/weblinks/form.php</filename>
+    <filename>html/com_weblinks/weblinks/index.html</filename>
+    <filename>html/com_weblinks/index.html</filename>
+    <filename>html/com_user/user/index.html</filename>
+    <filename>html/com_user/user/default.php</filename>
+    <filename>html/com_user/user/form.php</filename>
+    <filename>html/com_user/login/index.html</filename>
+    <filename>html/com_user/login/default_login.php</filename>
+    <filename>html/com_user/login/default.php</filename>
+    <filename>html/com_user/login/default_logout.php</filename>
+    <filename>html/com_user/register/default.php</filename>
+    <filename>html/com_user/register/index.html</filename>
+    <filename>html/com_user/register/default_message.php</filename>
+    <filename>html/com_user/index.html</filename>
+    <filename>html/com_user/remind/index.html</filename>
+    <filename>html/com_user/remind/default.php</filename>
+    <filename>html/com_user/remind/default_message.php</filename>
+    <filename>html/com_user/reset/index.html</filename>
+    <filename>html/com_user/reset/default.php</filename>
+    <filename>html/com_user/reset/confirm.php</filename>
+    <filename>html/com_user/reset/complete.php</filename>
+    <filename>images_general/index.html</filename>
+    <filename>images_general/calendar.png</filename>
+    <filename>images_general/j_button2_blank.png</filename>
+    <filename>images_general/j_button2_image.png</filename>
+    <filename>images_general/j_button2_left.png</filename>
+    <filename>images_general/j_button2_pagebreak.png</filename>
+    <filename>images_general/j_button2_readmore.png</filename>
+    <filename>images_general/selector-arrow.png</filename>
+    <filename>images/index.html</filename>
+    <filename>images/bg_head.jpg</filename>
+    <filename>images/photo.jpg</filename>
+    <filename>images/trans.gif</filename>
+    <filename>index.html</filename>
+    <filename>index.php</filename>
+    <filename>javascript/index.html</filename>
+    <filename>params.ini</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>template_thumbnail.png</filename>
+    <filename>favicon.ico</filename>
+    <filename>component.php</filename>
+  </files>
+  <positions>
+    <position>left</position>
+    <position>right</position>
+    <position>top</position>
+    <position>breadcrumb</position>
+    <position>user1</position>
+    <position>user2</position>
+    <position>user3</position>
+    <position>user4</position>
+    <position>google_analytics</position>
+    <position>debug</position>
+    <position>syndicate</position>
+  </positions>
+  <params>
+    <param name="google_analytics" type="radio" default="0" label="Use Google Analytics?" 
+	   description="Use Google Analytics for site statistics?  Get your code from http://google.com/analytics and paste in to the google_analytics module">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </param>
+    <param name="ucsc_mail_stop" type="text" default="Carriage House" label="UCSC Campus Mail Stop or Office Location" description="" size="20" />
+    <param name="contact_email" type="text" default="urrecept@ucsc.edu" label="Department Contact Email" description="" size="20" />
+    <param name="contact_phone" type="text" default="(831) 459-2501" label="Department Contact Phone" description="" size="20" />
+    <param name="search_domain" type="text" default="mysite.ucsc.edu" label="Department Search Domain" description="" size="20" />
+  </params>
+</install>
