@@ -1,6 +1,6 @@
 <?php
 /**
-* @version		$Id: CHANGELOG.php 11256 2008-11-11 02:57:29Z ircmaxell $
+* @version		$Id: CHANGELOG.php 11259 2008-11-14 16:23:22Z tsai146 $
 * @package		Joomla
 * @copyright	Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.
 * @license		GNU/GPL, see LICENSE.php
@@ -36,6 +36,9 @@ $ -> Language fix or change
 ^ -> Change
 - -> Removed
 ! -> Note
+
+14-Nov-2008 Jui-Yu Tsai
+ # [#13045] Contact category incorrect links
 
 10-Nov-2008 Anthony Ferrara
  # Removed Install Check
