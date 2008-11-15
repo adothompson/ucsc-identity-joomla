@@ -110,7 +110,13 @@ class modLatestNewsHelper
 			} else {
 				$lists[$i]->link = JRoute::_('index.php?option=com_user&view=login');
 			}
-			$lists[$i]->text = htmlspecialchars( $row->title );
+			// $lists[$i]->text = htmlspecialchars( $row->title );
+			// begin changes to lists contents 
+			// list items will now contain (link, title, text and readmore/boolean)
+			$lists[$i]->title = htmlspecialchars( $row->title );
+			$lists[$i]->text = strip_tags ( $row->introtext, '<a><img>' ) ;
+			$lists[$i]->readmore = ($row->fulltext) ? true : false;
+			// end changes to lists contents
 			$i++;
 		}
 

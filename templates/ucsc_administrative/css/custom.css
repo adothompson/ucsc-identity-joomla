@@ -1,1 +1,30 @@
 #hd #site span { background:#457ab8 url(../images/bg_head.jpg) no-repeat left top; }
+
+/* contact page form */
+#emailForm 
+{
+  margin-top: 2em;
+}
+#emailForm label
+{
+  display: block;
+  width: 150px;
+  float: left;
+}
+#emailForm textarea
+{
+  height: 150px;
+}
+#emailForm input, #emailForm textarea
+{
+  width: 300px;
+  border: 1px solid #000;
+}
+#emailForm div.contact_email
+{
+  margin-bottom: 10px;
+}
+#emailForm .contact_email_checkbox input
+{
+  width: 12px;
+}

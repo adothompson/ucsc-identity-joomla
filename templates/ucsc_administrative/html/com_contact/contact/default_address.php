@@ -79,7 +79,7 @@ defined('_JEXEC') or die('Restricted access');
 	<?php endif; ?>
 
 <?php endif; ?>
- </address></div>
+ </div>
 <?php if ($this->contact->misc && $this->contact->params->get('show_misc')) : ?>
 <p>
 <?php if (( $this->contact->params->get('contact_icons') ==0) || ( $this->contact->params->get('contact_icons') ==1)): ?>

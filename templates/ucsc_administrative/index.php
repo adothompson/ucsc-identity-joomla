@@ -13,9 +13,9 @@
 
    $url = clone(JURI::getInstance());
    $sitename = $mainframe->getCfg('sitename');
-$showRightColumn = $this->countModules('user1 or user2 or right');
-$showRightColumn &= JRequest::getCmd('layout') != 'form';
-$showRightColumn &= JRequest::getCmd('task') != 'edit';
+   $showRightColumn = $this->countModules('user1 or user2 or right');
+   $showRightColumn &= JRequest::getCmd('layout') != 'form';
+   $showRightColumn &= JRequest::getCmd('task') != 'edit';
 ?>
 <?php echo '<?xml version="1.0" encoding="utf-8"?'.'>'; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -63,10 +63,7 @@ $showRightColumn &= JRequest::getCmd('task') != 'edit';
 		<jdoc:include type="modules" name="user1" style="ucscDivision" headerLevel="3" />
 		<jdoc:include type="modules" name="user2" style="ucscDivision" headerLevel="3" />
 		<jdoc:include type="modules" name="right" style="ucscDivision" headerLevel="3" />
-                
-		<h4>A Headline</h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. [<a href="http://ucsc.edu">More</a>]</p>
-		<!-- Right column content ENDS here -->              
+                <!-- Right column content ENDS here -->              
 	      </div>
 	      <?php endif; ?>
 	    </div>
@@ -100,27 +97,12 @@ $showRightColumn &= JRequest::getCmd('task') != 'edit';
               <li>UC Santa Cruz</li>
               <li>1156 High Street</li>
               <li>Santa Cruz, CA 95064</li>
-              <li>Email: <a href="<?php echo $this->baseurl; ?>/contact"><?php echo $this->params->get('contact_email') ?></a><br /></li>
+              <li>Email: <a href="mailto:<?php echo $this->params->get('contact_email') ?>"><?php echo $this->params->get('contact_email') ?></a><br /></li>
               <li>Phone: <?php echo $this->params->get('contact_phone') ?></li>
             </ul>
 
 	    <jdoc:include type="modules" name="left" style="ucscDivision" headerLevel="4" />
-	    
-	    <!-- Inner Division/Site navigation: This should be used when the site has more than one page -->
-	    <!-- <h4>Navigation</h4>
-		 <ul id="pages">
-		   <li><a href="interior.html">Another Page</a></li>
-		   <li><a href="interior.html">Another Page</a></li>         
-		 </ul>   -->
-	    
-	    <!--  h4 is used to divide sections of the sidebar up -->
-	    <!-- <h4>Supplemental Info</h4>
-		 <p>A paragraph of text in the sidebar is usually used to provide additional information about the page you are on. "Sections" of the sidebar should be divided by an <code>&lt;h4&gt;</code> element, which will have a blue border on top of to separate the sections.</p>
-		 <ul>
-		   <li><a href="http://www.ucsc.edu">UCSC home page</a></li>
-		   <li>459-INFO hotline</li>
-		   <li>KZSC Radio (88.1 FM)</li>
-		 </ul> -->
+
 	    <!-- This is the grey text at the bottom of the sidebar with contact/copyright info -->
 	    <p class="information">
 	      <span class="copyright">&copy; 2008 The Regents of the University of California. All rights reserved.</span>
