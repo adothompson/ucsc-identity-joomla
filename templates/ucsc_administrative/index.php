@@ -13,7 +13,7 @@
 
    $url = clone(JURI::getInstance());
    $sitename = $mainframe->getCfg('sitename');
-   $showRightColumn = $this->countModules('user1 or user2 or right');
+   $showRightColumn = $this->countModules('user2 or right');
    $showRightColumn &= JRequest::getCmd('layout') != 'form';
    $showRightColumn &= JRequest::getCmd('task') != 'edit';
 ?>
@@ -60,7 +60,6 @@
 	      <?php if ($showRightColumn) : ?>
 	      <div id="right" class="yui-u">
 		<!-- Right column content BEGINS here -->
-		<jdoc:include type="modules" name="user1" style="ucscDivision" headerLevel="3" />
 		<jdoc:include type="modules" name="user2" style="ucscDivision" headerLevel="3" />
 		<jdoc:include type="modules" name="right" style="ucscDivision" headerLevel="3" />
                 <!-- Right column content ENDS here -->              
@@ -90,6 +89,7 @@
 	  </div>
 	  
 	  <div class="inner">
+	    <jdoc:include type="modules" name="user1" style="ucscDivision" headerLevel="4" />
 	    <!-- Left column content BEGINS here -->
             <h4><?php echo $sitename; ?></h4>
             <ul class="contact-info">
