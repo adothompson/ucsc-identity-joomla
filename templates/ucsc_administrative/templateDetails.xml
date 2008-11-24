@@ -141,9 +141,6 @@
       <option value="0">No</option>
       <option value="1">Yes</option>
     </param>
-    <param name="ucsc_mail_stop" type="text" default="Carriage House" label="UCSC Campus Mail Stop or Office Location" description="" size="20" />
-    <param name="contact_email" type="text" default="urrecept@ucsc.edu" label="Department Contact Email" description="" size="20" />
-    <param name="contact_phone" type="text" default="(831) 459-2501" label="Department Contact Phone" description="" size="20" />
     <param name="search_domain" type="text" default="mysite.ucsc.edu" label="Department Search Domain" description="" size="20" />
   </params>
 </install>

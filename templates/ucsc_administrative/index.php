@@ -91,15 +91,6 @@
 	  <div class="inner">
 	    <jdoc:include type="modules" name="user1" style="ucscDivision" headerLevel="4" />
 	    <!-- Left column content BEGINS here -->
-            <h4><?php echo $sitename; ?></h4>
-            <ul class="contact-info">
-              <li><?php echo $this->params->get('ucsc_mail_stop') ?></li>
-              <li>UC Santa Cruz</li>
-              <li>1156 High Street</li>
-              <li>Santa Cruz, CA 95064</li>
-              <li>Email: <a href="mailto:<?php echo $this->params->get('contact_email') ?>"><?php echo $this->params->get('contact_email') ?></a><br /></li>
-              <li>Phone: <?php echo $this->params->get('contact_phone') ?></li>
-            </ul>
 
 	    <jdoc:include type="modules" name="left" style="ucscDivision" headerLevel="4" />
 
