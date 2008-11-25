@@ -3,7 +3,7 @@ defined('_JEXEC') or die('Restricted access');
 ?>
 
 <?php foreach ($this->items as $item) : ?>
-<tr>
+<tr class="<?php echo $item->odd ? 'even' : 'odd'; ?>">
 	<td class="sectiontableentry" headers="Count">
 		<?php echo $item->count + 1; ?>
 	</td>

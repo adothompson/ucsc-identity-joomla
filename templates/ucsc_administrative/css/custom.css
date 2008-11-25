@@ -28,3 +28,27 @@
 {
   width: 12px;
 }
+
+/* tabling */
+
+table {
+    width: 100%;
+    font-size: 11px;
+    line-height: 15px;
+    background: #fff;
+}
+table td, table th {
+    vertical-align: top;
+    text-align: left;
+    padding: 3px 5px;
+}
+table th {
+    background: #f0f0f0 url(../images/bg-gradient-th.jpg) repeat-x;
+    font-weight: normal;
+    border-bottom: 1px solid #fff;
+    color: #666;
+}
+table tr.even td { /* alternating table rows */
+    background-color: #f2f2f2;
+}
+
