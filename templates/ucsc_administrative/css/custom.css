@@ -43,12 +43,11 @@ table td, table th {
     padding: 3px 5px;
 }
 table th {
-    background: #f0f0f0 url(../images/bg-gradient-th.jpg) repeat-x;
-    font-weight: normal;
+    background: #ddd;
+    font-weight: bold;
     border-bottom: 1px solid #fff;
-    color: #666;
 }
 table tr.even td { /* alternating table rows */
-    background-color: #f2f2f2;
+    background-color: #eee;
 }
 
