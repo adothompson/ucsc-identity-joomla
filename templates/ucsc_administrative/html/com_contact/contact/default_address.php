@@ -7,7 +7,7 @@ defined('_JEXEC') or die('Restricted access');
 	<address>
 
 	<?php if ( $this->contact->params->get('address_check') > 0) : ?>
-	        <?php if (( $this->contact->params->get('contact_icons') ==0) || (                 $this->contact->params->get('contact_icons') ==1)): ?>
+	        <?php if (( $this->contact->params->get('contact_icons') ==0) || ($this->contact->params->get('contact_icons') ==1)): ?>
 	<span class="marker"><?php echo $this->contact->params->get('marker_address'); ?></span>
 	<br />
 	<?php endif; ?>
@@ -33,7 +33,8 @@ defined('_JEXEC') or die('Restricted access');
 	<?php echo $this->contact->postcode; ?><br />
 	<?php endif; ?>
 
-
+	</address>
+</div>
 
 <?php endif; ?>
 
@@ -79,7 +80,7 @@ defined('_JEXEC') or die('Restricted access');
 	<?php endif; ?>
 
 <?php endif; ?>
- </div>
+ 
 <?php if ($this->contact->misc && $this->contact->params->get('show_misc')) : ?>
 <p>
 <?php if (( $this->contact->params->get('contact_icons') ==0) || ( $this->contact->params->get('contact_icons') ==1)): ?>
